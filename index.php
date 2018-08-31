@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Enrollment Fall 2018</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet/less" type="text/css" href="css/styles.less" />
 
 	<!-- Google font -->
@@ -219,7 +219,6 @@ if(isset($_SESSION['tab']) && $_SESSION['tab'] != ''){
 	    </tr>
 	  </thead>
 	  <tbody>
-	    <?php 
 	    	
 	    <tr>
 	    	<td></td>
@@ -234,9 +233,9 @@ if(isset($_SESSION['tab']) && $_SESSION['tab'] != ''){
   </div>
 </div>
 
-  <script src="bootstrap/js/jquery-3.0.0.slim.min.js"></script>
-  <script src="bootstrap/js/popper.js"></script> 
-  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/jquery-3.0.0.slim.min.js"></script>
+  <script src="js/popper.js"></script> 
+  <script src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/jquery.validate.js"></script>
   <script type="text/javascript" src="js/javascript.js"></script>
 </body>
