@@ -1,0 +1,131 @@
+body {
+	font-family: 'Poppins';
+
+}
+
+* {
+    padding: 0;
+	&:focus, &:active {
+		outline: none !important;
+	}
+}
+
+input,
+textarea,
+select,
+button {
+	font: inherit
+}
+
+a {
+  color: unset;
+} 
+
+header {
+background-color:#c25d0d;
+	.product-navbar{
+	    text-align: center;
+	    ul{
+	        display:inline-block;
+	        border:0;
+
+	        margin-bottom: -5px;
+	        li.nav-item{
+	            float:left;   
+	        	a.nav-link{
+		            border:0;
+		            border-radius:0;
+		            color:#fff;
+		            padding-top: 5px;
+		            padding-left:30px;
+		            padding-right:30px;
+			            &:hover,&:focus {
+			            color:#b20f0f;
+			            background-color:#fff;
+			            }
+	        	}
+	        }
+	    }
+	}
+}
+
+.jumbotron {
+	background-color: #772b2e !important;
+	color: #fff;
+}
+
+.tab-content {  
+	.btn-danger.custom {
+		background-color: #772b2e;
+		border-color: #772b2e;
+		&:hover {
+			background-color: #fff;
+			color: #772b2e;
+			border-color: #772b2e;
+			box-shadow: unset;
+		}
+		&:focus {
+			box-shadow: unset;
+		}
+		&:visited {
+			background-color: #772b2e;
+			border-color: #772b2e;
+		}
+		span {
+			padding-right: 15px;
+		}
+	}
+}
+
+.nav-tabs {
+    border: none !important;
+    justify-content: center;
+	.nav-link {
+		color: #dedede;
+	    font-size: 16px;
+	    font-weight: 500;
+	    padding: 0 20px 10px;
+	    transition: 300ms all;
+	    &:hover, &:focus {
+	    	color: #772b2e !important;
+	    }
+	}
+}
+
+.nav-tabs .nav-link,
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    padding: 0;
+    border:none;
+    padding: 0 20px 10px;
+
+	}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    border-bottom: 2px solid #cc0000;
+    padding-bottom: 10px;
+}
+
+.tab-content {
+	margin-top: 50px;
+}
+
+form.add-form {
+	border: 2px solid #772b2e;
+	padding: 20px;
+	width: 60%;
+	margin: auto auto 20px;
+	text-align: center;
+	.input-area {
+		margin-bottom: 20px;
+	}
+	.custom-icon {
+		padding-right: 10px;
+	}	
+}
+
+.invalid {
+	font-style: italic;
+	color: #772b2e;
+}
